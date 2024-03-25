@@ -47,6 +47,9 @@ gem "bootsnap", require: false
 gem "bcrypt"
 gem "bootstrap-sass"
 gem "sassc-rails"
+gem "faker"
+gem "will_paginate", "3.3.1"
+gem "bootstrap-will_paginate", "1.0.0"
 
 gem "importmap-rails"
 
