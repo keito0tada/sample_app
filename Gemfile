@@ -44,6 +44,8 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+gem "active_storage_validations", '0.9.8'
+gem 'image_processing', '1.12.2'
 gem "bcrypt"
 gem "bootstrap-sass"
 gem "sassc-rails"
@@ -71,6 +73,7 @@ end
 
 group :production do
   gem "pg", "1.3.5"
+  gem 'aws-sdk-s3', '1.114.0', require: false
 end
 
 group :test do
